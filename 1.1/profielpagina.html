@@ -1,48 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <title>HU AUI opd 1.1 | Nino de Jong</title>
-    <meta charset="utf-8">
+      <meta charset="UTF-8">
+      <title>Profielpagina</title>
+        <ul>
+          <li><a href="homepagina.html">Home</a></li>
+          <li>Profiel</li>
+          <li><a href="voortgangspagina.html">Voortgang</a></li>
+
+      </ul>
   </head>
   <body>
-    <header>
-      <h1>Profiel pagina</h1>
-      <h2>Nino de Jong</h2>
-      <ul>
-        <li><a href="homepagina.html">Home</a></li>
-        <li><a href="voortgangspagina.html">Voortgangs pagina</a></li>
-        <li><a href="profielpagina.html">Profiel pagina</a></li>
-      </ul>
-    </header>
-
-    <main>
-      <div class="main">
-        <div class="info">
-          <h3>Hi, I'm Nino. Can i help you with something?</h3>
-          <img style="width: 200px;height: auto;border-radius: 50%;" src="https://ninodejong.nl/includes/assets/img/profile_pic.jpg" alt="">
-          <p>I'm a Webdeveloper and IT consultant. I mostly work on backend applications with Python and PHP. I also work with almost all major javascript libraries. Intrested? lets grab a coffee!</p>
-        </div>
-      </div>
-      <div class="contact">
-        <div class="info">
-          <h3>ContactS</h3>
-          <p>
-            Nino de Jong Web development & Consultancy.
-            <br><br>
-            (Adres not for visiting):
-            Bergamotteperenlaan 8
-            3452DK Utrecht
-            The Netherlands.
-            <br><br>
-            KvK(CoC): 70946302
-            BTW nr(VAT): NL228460347B01
-          </p>
-        </div>
-      </div>
-    </main>
-
-    <footer style="text-align: center;width: 100%;">
-      <p><small>This is a HTML showcase website made by <a target="_blank" href="https://ninodejong.nl">Nino de Jong</a></small></p>
-    </footer>
+      <table>
+          <form>
+              <tr>
+                <td>
+                  Voornaam: <input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Achternaam: <input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    Adres: <input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  E-mail <input type="email">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Telefoonnr: <input type="tel">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Geslacht:<input type="radio" name="geslacht" value="Man">Man <input type="radio" name="geslacht" value="Vrouw">Vrouw
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Geboortedatum: <input type="date">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Studentnnr: <input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Klas:
+                  <select>
+                    <option value="V1L">V1D</option>
+                    <option value="V1M">V1M</option>
+                    <option value="V1L">V1N</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Gekozen Studierichting: <input type="radio" name="sr" value="SNE">SNE<br>
+                  <input type="radio" name="sr" value="BIM">BIM<br>
+                  <input type="radio" name="sr" value="SIE" checked>SIE<br>
+                  <input type="radio" name="sr" value="TI">TI<br>
+                </td>
+              </tr>
+              <tr>
+              <td>
+                  Foto: <input type="image">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="submit" name="submit" value="Verstuur">
+                </td>
+              </tr>
+          </form>
+      </table>
+      <footer>
+        <center>
+            <p><small>Deze opdracht is gemaakt in het kader van het vak Analyse & User interfaces</small</p>
+            <p>Auteur: <a target="_blank" href="https://ninodejong.nl">Nino de Jong</a></p>
+            <p>Datum: 13-01-2019</p>
+        </center>s
+      </footer>
   </body>
 </html>
